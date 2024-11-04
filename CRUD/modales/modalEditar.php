@@ -51,24 +51,10 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">Seleccione el Cargo</label>
-                            <select name="cargo" id="cargo" class="form-select" required>
-                                <option selected value="">Cargo</option>
-                                <?php
-                                $cargos = array(
-                                    "Gerente",
-                                    "Asistente",
-                                    "Analista",
-                                    "Frontend",
-                                    "Backend",
-                                    "Desarrollador Web"
-                                );
-                                foreach ($cargos as $cargo) {
-                                    echo "<option value='$cargo'>$cargo</option>";
-                                }
-                                ?>
-                            </select>
+                            <label class="form-label">Ingrese el Cargo</label>
+                            <input type="text" name="cargo" id="cargo" class="form-control" required placeholder="Escriba el cargo">
                         </div>
+
                         <div class="mb-3 mt-4">
                             <label class="form-label">Foto actual del empleado </label>
                             <br>
