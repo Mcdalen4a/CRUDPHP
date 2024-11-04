@@ -29,7 +29,7 @@
     $totalEmpleados = $empleados->num_rows;
     ?>
 
-    <h1 class="text-center mt-5 mb-5 fw-bold">CRUD</h1>
+ 
 
     <div class="container">
         <div class="row justify-content-md-center">
@@ -40,10 +40,8 @@
                             <i class="bi bi-person-plus"></i>
                         </a>
                     </span>
-                    Lista de empleados (<?php echo $totalEmpleados ?>)
-                    <span class="float-end">
-                        <a href="acciones/exportar.php" class="btn btn-success" title="Exportar a CSV" download="empleados.csv"><i class="bi bi-filetype-csv"></i></a>
-                    </span>
+                    Lista de personajes (<?php echo $totalEmpleados ?>)
+                  
                     <hr>
                 </h1>
                 <?php

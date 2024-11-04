@@ -10,7 +10,7 @@ async function modalRegistrarEmpleado() {
       if (modal) {
         modal.hide();
       }
-      existingModal.remove(); // Eliminar la modal existente
+      existingModal.remove(); 
     }
 
     const response = await fetch("modales/modalAdd.php");

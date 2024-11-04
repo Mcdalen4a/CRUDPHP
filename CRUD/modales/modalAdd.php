@@ -2,7 +2,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5 titulo_modal">Registrar Nuevo Empleado</h1>
+                    <h1 class="modal-title fs-5 titulo_modal">Registrar Nuevo personaje</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -12,7 +12,7 @@
                             <input type="text" name="nombre" class="form-control" />
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Cédula (NIT)</label>
+                            <label class="form-label">dni</label>
                             <input type="text" name="cedula" class="form-control" />
                         </div>
                         <div class="row">
@@ -50,20 +50,19 @@
                         </div>
 
                         <div class="mb-3">
-    <label class="form-label">Ingrese el Cargo</label>
+    <label class="form-label">Ingrese el dni</label>
     <input type="text" name="cargo" class="form-control" required placeholder="Escriba el cargo">
 </div>
 
 
                         <div class="mb-3 mt-4">
-                            <label class="form-label">Cambiar Foto del empleado</label>
+                            <label class="form-label">Cambiar Foto del personaje</label>
                             <input class="form-control form-control-sm" type="file" name="avatar" accept="image/png, image/jpeg" />
                         </div>
 
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-primary btn_add" onclick="registrarEmpleado(event)">
-                                Registrar nuevo empleado
-                            </button>
+                                Registrar nuevo personaje
                         </div>
                     </form>
                 </div>

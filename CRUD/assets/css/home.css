@@ -1,11 +1,14 @@
 body {
-  background-color: #f0f0f0 !important;
+  background-image: url('http://localhost/CRUDPHP/CRUD/assets/imgs/132467.jpeg');
+
 }
 .container {
-  background-color: #fff !important;
+  background-color: rgba(193, 199, 246, 0.942) !important; 
   padding: 20px;
   border-radius: 10px;
+  margin-top: 50px;
 }
+
 label {
   display: flex;
   justify-content: flex-start;
@@ -45,6 +48,26 @@ thead tr th {
 }
 tr td {
   text-align: start !important;
+  font-size: 17px;
 }
 
+tr {
+  background-color: #b4a2f9e1;
+}
+
+
+.btn-ver {
+  background-color: rgb(252, 3, 207) !important;
+  color: white !important;
+}
+
+.btn-editar {
+  background-color: rgb(107, 3, 252) !important;
+  color: white !important;
+}
+
+.btn-eliminar {
+  background-color: rgb(250, 35, 114) !important;
+  color: white !important;
+}
 

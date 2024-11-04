@@ -13,7 +13,7 @@
                             <input type="text" name="nombre" id="nombre" class="form-control" />
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Cédula (NIT)</label>
+                            <label class="form-label">dni</label>
                             <input type="text" name="cedula" id="cedula" class="form-control" />
                         </div>
                         <div class="row">
@@ -51,25 +51,25 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">Ingrese el Cargo</label>
+                            <label class="form-label">Descripción</label>
                             <input type="text" name="cargo" id="cargo" class="form-control" required placeholder="Escriba el cargo">
                         </div>
 
                         <div class="mb-3 mt-4">
-                            <label class="form-label">Foto actual del empleado </label>
+                            <label class="form-label">Foto actual del personaje </label>
                             <br>
                             <img src"" id="avatar" style="display: block;" class="rounded-circle float-start" alt="Foto del empleado" width="80">
                         </div>
                         <br> <br>
 
                         <div class="mb-3 mt-4">
-                            <label class="form-label">Cambiar Foto del empleado</label>
+                            <label class="form-label">Cambiar Foto del personaje</label>
                             <input class="form-control form-control-sm" type="file" name="avatar" accept="image/png, image/jpeg" />
                         </div>
 
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-primary btn_add" onclick="actualizarEmpleado(event)">
-                                Actualizar datos del empleado
+                                Actualizar datos del personaje
                             </button>
                         </div>
                     </form>

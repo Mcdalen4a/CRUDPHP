@@ -73,7 +73,7 @@ async function cargarDetalleEmpleado(idEmpleado) {
         <li class="list-group-item"><b>Edad:</b> 
           ${edad ? edad : "No disponible"}
         </li>
-        <li class="list-group-item"><b>Cédula:</b> 
+        <li class="list-group-item"><b>DNI:</b> 
           ${cedula ? cedula : "No disponible"}
           </li>
         <li class="list-group-item"><b>Sexo:</b>
@@ -82,7 +82,7 @@ async function cargarDetalleEmpleado(idEmpleado) {
         <li class="list-group-item"><b>Teléfono:</b> ${
           telefono ? telefono : "No disponible"
         }</li>
-        <li class="list-group-item"><b>Cargo:</b> 
+        <li class="list-group-item"><b>Descripción:</b> 
           ${cargo ? cargo : "No disponible"}
         </li>
          <li class="list-group-item"><b>Avatar:</b> ${avatarHTML}</li>

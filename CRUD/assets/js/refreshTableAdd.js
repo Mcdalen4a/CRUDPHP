@@ -24,15 +24,15 @@ window.insertEmpleadoTable = async function () {
         <td>
           <a title="Ver detalles del empleado" href="#" onclick="verDetallesEmpleado(${
             infoEmpleado.id
-          })" class="btn btn-success"><i class="bi bi-binoculars"></i></a>
+          })" class="btn btn-ver">Ver</a>
           <a title="Editar datos del empleado" href="#" onclick="editarEmpleado(${
             infoEmpleado.id
-          })" class="btn btn-warning"><i class="bi bi-pencil-square"></i></a>
+          })" class="btn btn-editar">Editar</a>
           <a title="Eliminar datos del empleado" href="#" onclick="eliminarEmpleado(${
             infoEmpleado.id
           }, '${
         infoEmpleado.avatar || ""
-      }')" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+      }')" class="btn btn-eliminar">Eliminar</a>
         </td>
       `;
 
